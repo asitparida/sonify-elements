@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
-import { ElementSounds } from '../lib';
-import type { ProfileName } from '../lib/sounds';
-import { SelectWithSound } from '../lib/SelectWithSound';
-import '../lib/SelectWithSound.css';
+import { ElementSounds } from 'sonify-elements';
+import type { ProfileName } from 'sonify-elements';
+import { SelectWithSound } from 'sonify-elements';
+import '../../src/lib/SelectWithSound.css';
 import './DemoPage.scss';
 
 interface Props {

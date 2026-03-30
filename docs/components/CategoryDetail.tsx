@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
 import { useParams } from 'react-router-dom';
 import { findInteraction } from '../data/categories';
-import { PROFILES, PROFILE_META, type ProfileName, type SoundKey } from '../lib/sounds';
+import { PROFILES, PROFILE_META, type ProfileName, type SoundKey } from 'sonify-elements';
 import { audioEngine } from '../audio/AudioEngine';
 import { CategorySim } from './CategorySim';
 import { CodeBlock } from './CodeBlock';

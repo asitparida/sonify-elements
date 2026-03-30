@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState, useMemo } from 'react';
 import type { FormElement } from '../data/elements';
-import { getSoundKey, type SoundProfile } from '../lib/sounds';
+import { getSoundKey, type SoundProfile } from 'sonify-elements';
 import { getSequence } from './ElementSimulation/simulationSequences';
 
 interface Props {

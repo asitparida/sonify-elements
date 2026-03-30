@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ELEMENTS } from '../data/elements';
-import { PROFILES, PROFILE_META, getSoundKey, type ProfileName, type SoundProfile, type SoundKey } from '../lib/sounds';
+import { PROFILES, PROFILE_META, getSoundKey, type ProfileName, type SoundProfile, type SoundKey } from 'sonify-elements';
 import { audioEngine } from '../audio/AudioEngine';
 import { ElementSimulation, type SimHandle } from './ElementSimulation/ElementSimulation';
 import { EnvelopeSVG } from './EnvelopeSVG';

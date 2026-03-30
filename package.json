@@ -1,10 +1,24 @@
 {
   "name": "sonify-elements",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "type": "module",
+  "main": "./dist/lib/sonify-elements.cjs",
+  "module": "./dist/lib/sonify-elements.mjs",
+  "types": "./dist/lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/lib/sonify-elements.mjs",
+      "require": "./dist/lib/sonify-elements.cjs",
+      "types": "./dist/lib/index.d.ts"
+    }
+  },
+  "files": [
+    "dist/lib"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:lib": "vite build --mode lib && tsc -p tsconfig.lib.json",
     "lint": "eslint .",
     "preview": "vite preview"
   },

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback, useImperativeHandle, forwardRef } from 'react';
 import type { FormElement } from '../../data/elements';
 import { audioEngine } from '../../audio/AudioEngine';
-import { getSoundKey, type SoundProfile, type SoundDef } from '../../lib/sounds';
+import { getSoundKey, type SoundProfile, type SoundDef } from 'sonify-elements';
 import { getSequence, SELECT_OPTIONS } from './simulationSequences';
 import type { SimStep } from './simulationSequences';
 import './ElementSimulation.scss';

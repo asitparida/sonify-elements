@@ -1,4 +1,4 @@
-import type { SoundKey } from '../lib/sounds';
+import type { SoundKey } from 'sonify-elements';
 
 export interface InteractionSound {
   label: string;

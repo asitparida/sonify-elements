@@ -1,5 +1,5 @@
-import type { SoundDef } from '../lib/sounds';
-export type { SoundDef } from '../lib/sounds';
+import type { SoundDef } from 'sonify-elements';
+export type { SoundDef } from 'sonify-elements';
 
 export interface SoundParams {
   attack: number;

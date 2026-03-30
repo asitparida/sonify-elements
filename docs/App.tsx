@@ -2,7 +2,7 @@ import { useState, useCallback } from 'react';
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom';
 import { ELEMENTS } from './data/elements';
 import { INTERACTION_GROUPS } from './data/categories';
-import { type ProfileName } from './lib/sounds';
+import { type ProfileName } from 'sonify-elements';
 import { ContentPage } from './components/ContentPage';
 import { DemoPage } from './components/DemoPage';
 import { ElementDetail } from './components/ElementDetail';

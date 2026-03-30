@@ -1,4 +1,4 @@
-import type { SoundDef } from '../lib/sounds';
+import type { SoundDef } from 'sonify-elements';
 
 class AudioEngine {
   private ctx: AudioContext | null = null;

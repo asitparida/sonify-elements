@@ -1,5 +1,5 @@
 import { useState, useCallback, useRef } from 'react';
-import { PROFILES, type ProfileName, type SoundKey } from '../lib/sounds';
+import { PROFILES, type ProfileName, type SoundKey } from 'sonify-elements';
 import { audioEngine } from '../audio/AudioEngine';
 import './CategorySim.scss';
 

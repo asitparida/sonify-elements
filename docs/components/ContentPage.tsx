@@ -1,4 +1,4 @@
-import { PROFILE_META, SOUNDS, type SoundDef } from '../lib/sounds';
+import { PROFILE_META, SOUNDS, type SoundDef } from 'sonify-elements';
 import { audioEngine } from '../audio/AudioEngine';
 import { CodeBlock } from './CodeBlock';
 import './ContentPage.scss';
