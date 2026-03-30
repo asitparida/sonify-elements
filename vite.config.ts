@@ -20,6 +20,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     root: 'docs',
+    base: '/sonify-elements/',
     plugins: [react()],
     resolve: {
       alias: {
